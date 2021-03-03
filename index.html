@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Maker</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row mainContainer my-3">
+            <div class="col-sm-12 title my-3">RESUME MAKER</div>
+            <form action="pdfPage.php" method="post" id="form">
+                <label for="name" class="col-md-5 ml-3 lbl">Name <span>:</span> </label>
+                <input type="text" id="name" name="name" class="col-md-6 txtbox" 
+                placeholder="Enter your name">
+
+                <label for="f_name" class="col-md-5 ml-3 lbl">Father's Name <span>:</span> </label>
+                <input type="text" id="f_name" name="f_name" class="col-md-6 txtbox" 
+                placeholder="Enter your Father's name">
+
+                <label for="m_name" class="col-md-5 ml-3 lbl">Mother's Name <span>:</span> </label>
+                <input type="text" id="m_name" name="m_name" class="col-md-6 txtbox" 
+                placeholder="Enter your Mother's name">
+
+                <label for="dob" class="col-md-5 ml-3 lbl">Date Of Birth <span>:</span> </label>
+                <input type="date" id="dob" name="dob" class="col-md-6 txtbox" 
+                placeholder="Enter your D.O.B.">
+                
+                <label for="marital_status" class="col-md-5 ml-3 lbl">Marital Status 
+                    <span>:</span> </label>
+                    <input type="radio" name="marital_status" id="married" value="Married">
+                    <label for="married" class="rdolbl">Married</label>
+                    <input type="radio" name="marital_status" id="unmarried" value="Unmarried" class="rdobox">
+                    <label for="unmarried" class="rdolbl">Unmarried</label>
+
+                <label for="gender" class="col-md-5 ml-3 lbl">Gender <span>:</span> </label>
+                <input type="radio" name="gender" id="male" value="Male">
+                <label for="male" class="rdolbl">Male</label>
+                <input type="radio" name="gender" id="female" value="Female" class="rdobox">
+                <label for="female" class="rdolbl">Female</label>
+                <input type="radio" name="gender" id="other" value="Other" class="rdobox">
+                <label for="other" class="rdolbl">Other</label>
+
+                <label for="language" class="col-md-5 ml-3 lbl">Language <span>:</span> </label>
+                <input type="text" id="language" name="language" class="col-md-6 txtbox" 
+                placeholder="e.g. Hindi, English, etc">
+
+                <label for="contact_number" class="col-md-5 ml-3 lbl">Contact Number <span>:</span> </label>
+                <input type="number" id="contact_number" name="contact_number" class="col-md-6 txtbox" 
+                placeholder="Enter your 10 digit mobile no.">
+                
+                <label for="email" class="col-md-5 ml-3 lbl">Email ID <span>:</span> </label>
+                <input type="email" id="email" name="email" class="col-md-6 txtbox" 
+                placeholder="e.g. xyz@gmail.com">
+                
+                <label for="address" class="col-md-5 ml-3 lbl">Address <span>:</span> </label>
+                <textarea name="address" id="address"  rows="1"  class="col-md-6 txtbox"
+                 placeholder="Enter your address"></textarea>
+
+                <label for="nationality" class="col-md-5 ml-3 lbl">Nationality <span>:</span> </label>
+                <input type="text" id="nationality" name="nationality" class="col-md-6 txtbox" 
+                placeholder="Enter your nationality" value="Indian">
+                
+                <label for="education1" class="col-md-5 ml-3 lbl">10th Education <span>:</span> </label>
+                <input type="text" id="education1" name="education1" class="col-md-6 txtbox" 
+                placeholder="e.g. 10th from CBSE with 95%">
+                
+                <label for="education2" class="col-md-5 ml-3 lbl">12th Education <span>:</span> </label>
+                <input type="text" id="education2" name="education2" class="col-md-6 txtbox" 
+                placeholder="e.g. 12th from CBSE with 95%">
+                
+                <label for="education3" class="col-md-5 ml-3 lbl">Graduation <span>:</span> </label>
+                <input type="text" id="education3" name="education3" class="col-md-6 txtbox" 
+                placeholder="Enter your graduation degree otherwise leave">
+                
+                <label for="experience" class="col-md-5 ml-3 lbl">Experience <span>:</span> </label>
+                <input type="text" id="experience" name="experience" class="col-md-6 txtbox" 
+                placeholder="Enter your working experience if any">
+                
+                <label for="skill" class="col-md-5 ml-3 lbl">Skills <span>:</span> </label>
+                <input type="text" id="skill" name="skill" class="col-md-6 txtbox" 
+                placeholder="e.g. HTML/CSS/JS/PHP/etc..">
+                
+                <label for="about" class="col-md-5 ml-3 lbl">About <span>:</span> </label>
+                <textarea name="about" id="about"  rows="1"  class="col-md-6 txtbox"
+                 placeholder="Write about your self"></textarea>
+                 
+                 <div class="col-sm-12" style="width: 100%; margin-bottom: 2em; text-align: center;">
+                    <input type="submit" value="SUBMIT" class="submitbtn">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="js/all.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+</html>
