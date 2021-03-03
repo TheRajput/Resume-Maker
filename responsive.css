@@ -1,0 +1,30 @@
+@media only screen and (max-width: 600px) {
+    .mainContainer {
+        width: 96vw;
+    }
+    
+    .lbl {
+        font-size: 1.5em;
+        margin-bottom: 0.1em;
+    }
+    form label span {
+        color: red;
+        float: none;
+        margin-right: auto;
+    }
+    .txtbox {
+        font-size: 1.5em;
+        margin-top: 0.1rem;
+    }
+        
+    .rdolbl {
+        font-size: 1.2em;
+    }
+    .selectbox {
+        scroll-behavior: auto;
+        width: 95vw;
+    }
+    .submitbtn {
+        font-size: 1.2em;
+    }
+}

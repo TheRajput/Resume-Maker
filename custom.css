@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(231, 231, 231);
+}
+.mainContainer {
+    width: 60vw;
+    background-color: rgb(245, 241, 241);
+    border: 3px solid rgb(0, 66, 128);
+    border-style: double;
+    border-left: none;
+    border-right: none;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 66, 128);
+}
+#form {
+    width: 100%;
+}
+.lbl {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+}
+form label span {
+    color: red;
+    float: right;
+    margin-right: 5em;
+}
+.txtbox {
+    border: 1px solid rgb(11, 150, 11);
+    border-radius: 10px;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+}
+.rdobox {
+    margin-left: 2em;
+}
+.selectbox {
+    width: 30vw;
+}
+.submitbtn {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: .1em;
+    color: white;
+    background-color: rgb(15, 85, 151);
+    border: 2px solid rgb(15, 85, 151);
+    border-radius: 10px;
+}
+.submitbtn:hover {
+    border: 3px solid rgb(15, 85, 151);
+    background-color: rgb(18, 102, 180);
+    font-weight: bolder;
+}
